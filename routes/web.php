@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/wel2', function () {
-    $name="asd";
+    $name="Mahmoud Abu Dahi";
     return view('wel2', compact("name"));
 });
